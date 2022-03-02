@@ -1,0 +1,126 @@
+.container {
+    max-width: 1280px;
+    margin: 20px auto; 
+}
+
+/* navbar */
+
+a.navbar-brand {
+    font: 16px; 
+}
+
+a.nav-link{
+    font-size: 16px; 
+    padding: 16px; 
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #5B5B5B; 
+}
+h1{
+    color: #1D3444;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+
+
+#nav-link {
+    color: #F58A07; 
+    text-decoration: none;
+    border: solid 1px white;
+    background-color: rgb(245, 238, 227);
+    border-radius: 20px; 
+    padding: 10px 20px 10px 20px; 
+
+}
+
+.image-orange{
+    position: relative;
+}
+
+.image-orange:after{
+    content:'';
+    position: absolute; 
+    width: 20%;
+    height: 100%;
+    background: #F58A07;
+    top: 0;
+    left:0;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    mix-blend-mode: multiply;
+}
+.image-orange img{
+    border-radius: 20px;
+}
+
+button.btn.btn-primary {
+    background-color: #F58A07;
+    border-radius: 20px;
+    border: #F58A07; 
+    padding: 12px 32px; 
+}
+
+button.btn.btn-light {
+    background-color: #DCEAF5 ; 
+    border:rgb(245, 238, 227); 
+    padding: 12px 32px; 
+}
+
+.header-content-logos ul{
+    padding: 0; 
+}
+
+.section-content-body {
+    margin-top: 30px;
+}
+a.btn.btn-primary {
+    color: #F58A07; 
+    background-color: white; 
+    border: none; 
+}
+.card {
+    border: none; 
+}
+/* section-blog */
+
+.section-blog{
+    margin-top: 50px; 
+    margin-bottom: 50px;  
+}
+.section-positions .card h5{
+    font-weight: bold;
+}
+.section-positions .card a{
+    color:#F58A07; 
+    text-decoration: none;
+}
+.section-positions .card{
+    background-color: #DCEAF5;
+    border-radius: 20px;
+}
+
+/* footer */
+footer{
+    background-color: #063255; 
+    color: white; 
+    margin-top: 50px; 
+    padding: 50px; 
+}
+
+footer .row .col-4 a{
+    display: block;
+    background-color: #063255;
+    color: white; 
+    display: flex; 
+}
+
+footer h2{
+    color: white; 
+}
+small {
+    font-size: .7em
+}

@@ -1,0 +1,66 @@
+.container {
+max-width: 1280px;
+margin: 0 auto; 
+}
+
+/* navbar */
+a.navbar-brand {
+    font: 16px; 
+}
+a.nav-link{
+    font-size: 16px; 
+    padding: 16px; 
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px; 
+}
+
+#nav-link {
+    color: #F58A07;
+    text-decoration: none;
+    border: solid 1px white;
+    background-color: rgb(245, 238, 227);
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px; 
+}
+
+.section-header{
+    background-color: #F58A07;
+    padding: 0; 
+}
+.header-image{
+    background-image: url('/images/experience-image.png');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-left: -1rem;
+}
+
+h1{
+    color: #1D3444;
+    font-weight: bold;
+    font-size: 64px;
+}
+
+/* footer */
+footer{
+    background-color: #063255; 
+    color: white; 
+    margin-top: 50px; 
+    padding: 50px; 
+}
+
+footer .row .col-4 a{
+    display: block;
+    background-color: #063255;
+    color: white; 
+    display: flex; 
+}
+
+footer h2{
+    color: white; 
+}
+small {
+    font-size: .7em
+}
+
